@@ -2253,6 +2253,15 @@ input, select, textarea {
 	}
 
 /* Actions */
+ul.actions.stack li {
+	background-color: #ebebff;
+	border-radius: 6px;
+	color: #4456fb;
+	display: flex;
+	justify-content: center;
+	margin: 0 4px 0 1.125em;
+	padding: 4px 12px;
+}
 
 	ul.actions {
 		display: -moz-flex;
@@ -2324,6 +2333,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+
+			ul.actions.stack li {
+				margin: 0;
+			}
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -2629,14 +2642,14 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5ed0b1;
+				background-color: #4456fb;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #39c29d;
+				background-color: #4456fb;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
