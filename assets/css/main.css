@@ -2259,8 +2259,20 @@ ul.actions.stack li {
 	color: #4456fb;
 	display: flex;
 	justify-content: center;
-	margin: 0 4px 0 1.125em;
+	margin: 0 0 0 1.125em;
 	padding: 4px 12px;
+	font-size: 0.8rem;
+}
+
+p.actions.stack {
+	background-color: #ebebff;
+	border-radius: 6px;
+	color: #4456fb;
+	display: block;
+	justify-content: start;
+	margin: 0 0 0 1.125em;
+	padding: 4px 12px;
+	font-size: 0.8rem;
 }
 
 	ul.actions {
