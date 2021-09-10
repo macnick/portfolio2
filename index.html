@@ -1,11 +1,99 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
 	<title>Nick Haralampopoulos' Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<style type="text/css">
+		mark {
+			background-color: transparent;
+			color: inherit;
+		}
+
+		input::-moz-focus-inner {
+			border: 0;
+			padding: 0;
+		}
+
+		strong,
+		b {
+			color: #777;
+			font-weight: 700;
+		}
+
+		h5 {
+			font-size: 0.9em;
+			line-height: 1.5em;
+		}
+
+		h6 {
+			font-size: 0.7em;
+			line-height: 1.5em;
+		}
+
+		sub {
+			font-size: 0.8em;
+			position: relative;
+			top: 0.5em;
+		}
+
+		sup {
+			font-size: 0.8em;
+			position: relative;
+			top: -0.5em;
+		}
+
+		hr {
+			border: 0;
+			border-bottom: solid 2px #f4f4f4;
+			margin: 2.25em 0;
+		}
+
+		hr.major {
+			margin: 3.375em 0;
+		}
+
+		code {
+			background: #555;
+			border-radius: 5px;
+			color: #fff;
+			font-family: "Source Code Pro", monospace;
+			font-size: 0.9em;
+			margin: 0 0.25em;
+			padding: 0.25em 0.65em;
+		}
+
+		pre {
+			font-family: "Source Code Pro", monospace;
+			font-size: 0.9em;
+			margin: 0 0 2.25em 0;
+		}
+
+		pre code {
+			-webkit-overflow-scrolling: touch;
+			display: block;
+			line-height: 1.5em;
+			overflow-x: auto;
+			padding: 1em 1.5em;
+		}
+
+		.align-left {
+			text-align: left;
+		}
+
+		.align-center {
+			text-align: center;
+		}
+
+		.align-right {
+			text-align: right;
+		}
+	</style>
+	<link rel="preload" href="assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/main.css">
+	</noscript>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YBGF7R7BZ7"></script>
 	<script>
@@ -114,7 +202,7 @@
 					<p>Here are some projects I developed during my development learning journey.</p>
 					<div class="features">
 						<article>
-							<a href="https://bookaduc.netlify.app" class="image"><img src="images/Proj1.jpg"
+							<a href="https://bookaduc.netlify.app" class="image"><img loading="lazy" src="images/Proj1.jpg"
 									alt="Bookaduc running on a PC, a tablet and a phone" /></a>
 							<div class="inner">
 								<h4>Book a Ducati - Client</h4>
@@ -137,7 +225,7 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://macexperts.gr/darkforest/" class="image"><img src="images/Proj2.jpg"
+							<a href="https://macexperts.gr/darkforest/" class="image"><img loading="lazy" src="images/Proj2.jpg"
 									alt="Dark forest battle scene" /></a>
 							<div class="inner">
 								<h4>Dark Forest</h4>
@@ -161,7 +249,7 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://motogp-macnick.netlify.app/" class="image"><img src="images/Proj3.jpg"
+							<a href="https://motogp-macnick.netlify.app/" class="image"><img loading="lazy" src="images/Proj3.jpg"
 									alt="MotoGP database running on a PC, a tablet and a phone" /></a>
 							<div class="inner">
 								<h4>MotoGP database</h4>
@@ -183,7 +271,8 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://macnick.github.io/Restaurant-Page/" class="image"><img src="images/Proj4.jpg"
+							<a href="https://macnick.github.io/Restaurant-Page/" class="image"><img loading="lazy"
+									src="images/Proj4.jpg"
 									alt="Acropolis 247 restaurant page running on a PC, a tablet and a phone" /></a>
 							<div class="inner">
 								<h4>Acropolis 247 restaurant</h4>
@@ -206,7 +295,7 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://secret-sea-76381.herokuapp.com/" class="image"><img src="images/Proj5.jpg"
+							<a href="https://secret-sea-76381.herokuapp.com/" class="image"><img loading="lazy" src="images/Proj5.jpg"
 									alt="Friendbook running on a PC, a tablet and a phone" /></a>
 							<div class="inner">
 								<h4>Friendbook</h4>
@@ -227,8 +316,8 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://react-bookstore-270720.herokuapp.com/" class="image"><img src="images/Proj6.jpg"
-									alt="React Bookstore running on a PC, a tablet and a phone" /></a>
+							<a href="https://react-bookstore-270720.herokuapp.com/" class="image"><img loading="lazy"
+									src="images/Proj6.jpg" alt="React Bookstore running on a PC, a tablet and a phone" /></a>
 							<div class="inner">
 								<h4>React Bookstore</h4>
 								<p>Magic-books Inc. bookstore application. Fast, dynamic and responsive.</p>
@@ -248,7 +337,7 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://mapply2021.netlify.app/" class="image"><img src="images/mapply.jpg"
+							<a href="https://mapply2021.netlify.app/" class="image"><img loading="lazy" src="images/mapply.jpg"
 									alt="Mapply screenshot" /></a>
 							<div class="inner">
 								<h4>Mapply</h4>
@@ -273,8 +362,8 @@
 							</div>
 						</article>
 						<article>
-							<a href="https://github.com/macnick/filter-challenges" class="image"><img src="images/chromeExtension.jpg"
-									alt="Mapply screenshot" /></a>
+							<a href="https://github.com/macnick/filter-challenges" class="image"><img loading="lazy"
+									src="images/chromeExtension.jpg" alt="Mapply screenshot" /></a>
 							<div class="inner">
 								<h4>Filter Challenges</h4>
 								<p>Chrome extension made with ❤️ for the Microverse online software school students. Available on the
@@ -451,14 +540,14 @@
 
 	</div>
 
-	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script defer src="assets/js/jquery.min.js"></script>
+	<script defer src="assets/js/jquery.scrollex.min.js"></script>
+	<script defer src="assets/js/jquery.scrolly.min.js"></script>
+	<script defer src="assets/js/browser.min.js"></script>
+	<script defer src="assets/js/breakpoints.min.js"></script>
+	<script defer src="assets/js/util.js"></script>
+	<script defer src="assets/js/main.js"></script>
 
 </body>
 
